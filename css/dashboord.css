@@ -1,0 +1,49 @@
+:root {
+    
+    --background:  #FAFFC1;
+    --hover-color: #00C1FE;
+    --bg-students: #F0F9FF;
+    --bg-course: #FEF6FB;
+    --bg-pay: #FEFBEC;
+    --bg-user:linear-gradient(to right, #00C1FE, #FAFFC1  );
+    
+  }
+  body{
+      min-width: 100vh;
+      overflow-x: hidden;
+      
+      
+  }
+  .text-table{
+      color: #ACACAC;
+      font-weight:lighter;
+  }
+  .bg_table{
+      background: #eee8e873;
+  }
+  .navbar{
+      
+      height: 100vh;
+     
+      background-color: var(--background);
+  
+  }
+ .nav-link{
+     font-size: 1.25em;
+  
+ }
+ .nav-link:active,.nav-link:focus,.nav-link:hover{
+     background-color: var(--hover-color);
+ }
+ .students{
+     background-color:var(--bg-students);
+ }
+ .course{
+    background-color:var(--bg-course);
+}
+.pay{
+    background-color:var(--bg-pay);
+}
+.use{
+    background:var(--bg-user);
+}

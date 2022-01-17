@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liste</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link  href="css/all.min.css" rel="stylesheet">
+    <link  href="css/dashboord.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+
+</head>
+<body class="row">
+     <header class="col-2">
+
+    <nav class="navbar navbar-expand d-flex flex-column align-item-start justify-content-between " id="sidebar">
+      
+        <div class=" dark-text fs-1 fw-bold border-start border-5 border-info " style="margin-left: -74px;">
+            E-classe
+        </div>
+
+        <div class="text-center justify-content-center ">
+            <img src="img/profile.jpg" alt="profile picture" class=" profile img-fluid rounded-circle mx-auto d-block  p-1 d-inline">
+            
+               <h6 > Admin name </h6>
+               <span class=" fs-6 text-info" >Admin</span>              
+         </div>
+
+      <ul class="navbar-nav d-flex flex-column mt-5 w-10  ">
+          
+       
+        <li class="nav-item w-100 "> <a href="" class="nav-link text-dark pl-4"> <i class="fas fa-home"></i> Home</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-bookmark"></i> Course</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-graduation-cap"></i> Students</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-dollar-sign"></i>  Payment</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-gift me-2"></i> Products</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-file-alt"></i> Report</a></li>
+        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-sliders-h"></i> Settings</a></li>
+      </ul>
+    
+      <div>
+        <a href="#" class="list-group-item bg-transparent  second-text mt-4  "> 
+            Logout  <i class="fas fa-sign-out-alt"></i>  </a>
+      </div>
+
+    </nav>
+     
+
+</header>
+
+
+
+    <main class="col-10">
+      
+      <div class=" px-5 ">
+        <div class=" navbar-expand-md bg-white nav-dark text-light">
+            <div class="d-flex justify-content-between">
+               
+                <a href="#" class="navbar-brand mx-1"><i class="fas fa-chevron-circle-left   fs-4 me-3" id="menu-toggle"></i></a>
+                    <button
+                            class="navbar-toggler" 
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#main">
+                          <span class="navbar-toggler-icon"></span>  
+                    </button> 
+                    
+                        <form class="d-flex ">
+                            <input class="form-control me-2 " type="search" placeholder="Search..." aria-label="Search">
+                            <i class="fas fa-bell mt-2 ml-2"></i>
+                          </form>
+                  
+
+            
+                
+            
+            </div>
+        </div>
+        <div class="row g-4  my-5">
+            <div class="col-md-3">
+                <div class="p-3  students shadow-sm d-flex justify-content-around align-items-center ">
+                    <div >
+                        <i class="fas fa-graduation-cap fs-1 primary-text  p-1"></i>
+                        
+                        <p class="fs-5">Students</p>
+                    </div>
+                   <h3 class="fs-5">243</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-3 course  shadow-sm d-flex justify-content-around align-items-center ">
+                    <div>
+                        <i class="far fa-bookmark fs-1 primary-text  p-1"></i>
+                       
+                        <p class="fs-5">Course</p>
+                    </div>
+                    <h3 class="fs-2">13</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-3 pay shadow-sm d-flex justify-content-around align-items-center ">
+                    <div>
+                        <i class="fas fa-dollar-sign fs-1 primary-text  p-1"></i>
+                       
+                        <p class="fs-5">Payments</p>
+                    </div>
+                    <h3 class="fs-2">DH556,000</h3>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="p-3 use shadow-sm  d-flex justify-content-around align-items-center rounded">
+                    <div>
+                        <i class="far fa-user fs-1 primary-text p-1"></i>
+                      
+                        <p class="fs-5">Users</p>
+                    </div>
+                     <h3 class="fs-2">3</h3>
+                </div>
+            </div>
+    </main>
+    <footer>
+
+    </footer>
+   <script src="js/bootstrap.bundle.min.js" ></script>
+
+</body>
+</html>
