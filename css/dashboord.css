@@ -8,9 +8,17 @@
     --bg-user:linear-gradient(to right, #00C1FE, #FAFFC1  );
     
   }
+
   body{
       min-width: 100vh;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #eee8e873;
+      background-size: cover;
+      background-repeat: no-repeat;
       overflow-x: hidden;
+      
       
       
   }
@@ -18,16 +26,8 @@
       color: #ACACAC;
       font-weight:lighter;
   }
-  .bg_table{
-      background: #eee8e873;
-  }
-  .navbar{
-      
-      height: 100vh;
-     
-      background-color: var(--background);
-  
-  }
+ 
+
  .nav-link{
      font-size: 1.25em;
   
@@ -47,3 +47,55 @@
 .use{
     background:var(--bg-user);
 }
+
+  .content {
+    
+    transition: 1s;
+  }
+
+  #side-bar{
+      position: absolute;
+      width: 320px;
+      height: 100%;
+      background: var(--background);
+      left:-330px;
+
+  }
+
+  .toggle-btn{
+    position: absolute;
+    top: 11px;
+    left: 344px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  
+  }
+  .toggle-btn span{
+      width: 60px;
+      height: 10px;
+     
+      display: block;
+    margin-top:4px; 
+    transition: 0.3s ease;
+  }
+  
+ 
+  
+ 
+  
+  #side-bar.active{
+      left:0;
+  }
+ 
+
+  #side-bar.active span {
+    transform: rotate(180deg);
+    top: 3px;
+  }
+
+ 
+  
+  
+  
+  

@@ -14,9 +14,9 @@
 
 </head>
 <body class="row">
-     <header class="col-2 p-0">
+     <header class="col-2 p-0 " id="sidebar">
 
-    <nav class="navbar navbar-expand d-flex flex-column align-item-start justify-content-between " id="sidebar">
+    <nav class="navbar navbar-expand d-flex flex-column align-item-start justify-content-between " >
       
         <div class=" dark-text fs-1 fw-bold border-start border-5 border-info " style="margin-left: -74px;">
             E-classe
@@ -32,17 +32,17 @@
       <ul class="navbar-nav d-flex flex-column mt-5 w-10  ">
           
        
-        <li class="nav-item w-100 "> <a href="" class="nav-link text-dark pl-4"> <i class="fas fa-home"></i> Home</a></li>
+        <li class="nav-item w-100 "> <a href="liste.html" class="nav-link text-dark pl-4"> <i class="fas fa-home"></i> Home</a></li>
         <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-bookmark"></i> Course</a></li>
         <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-graduation-cap"></i> Students</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-dollar-sign"></i>  Payment</a></li>
+        <li class="nav-item w-100"><a href="payement.html" class="nav-link text-dark pl-4"><i class="fas fa-dollar-sign"></i>  Payment</a></li>
         <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-gift me-2"></i> Products</a></li>
         <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-file-alt"></i> Report</a></li>
         <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-sliders-h"></i> Settings</a></li>
       </ul>
     
       <div>
-        <a href="#" class="list-group-item bg-transparent  second-text mt-4  "> 
+        <a href="index.html" class="list-group-item bg-transparent  second-text mt-4  " > 
             Logout  <i class="fas fa-sign-out-alt"></i>  </a>
       </div>
 
@@ -53,28 +53,27 @@
 
 
 
-    <main class="col-10 bg_table p-0 ">
+    <main class="col-10 p-0 mycont">
       
       <div class=" py-0  ">
         <div class=" navbar-expand-md bg-white nav-dark text-light">
             <div class="d-flex justify-content-between">
-               
-                <a href="#" class="navbar-brand mx-1 px-2" style="font-size:28px;color:#C4C4C4
-                ;"><i class="fas fa-chevron-circle-left   fs-4 me-3" id="menu-toggle"></i></a>
-                    <button
-                            class="navbar-toggler" 
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#main">
-                          <span class="navbar-toggler-icon"></span>  
-                    </button> 
-                    
-                     <form class="d-flex ">
-                            <input class="form-control me-2 " type="search" placeholder="Search..." aria-label="Search">
-                            <i class="fas fa-bell mt-2 ml-2 px-4"style="font-size:28px;color:#C4C4C4
-                            ;"></i>
-                            
-                     </form>
+              <a href="#" class="navbar-brand mx-1 px-2" style="font-size:28px;color:#C4C4C4
+              ;"><i class="fas fa-chevron-circle-left   fs-4 me-3" id="menu-toggle"></i></a>
+                  <button
+                          class="navbar-toggler" 
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#main">
+                        <span class="navbar-toggler-icon"></span>  
+                  </button> 
+                  
+                   <form class="d-flex ">
+                          <input class="form-control me-2 " type="search" placeholder="Search..." aria-label="Search">
+                          <i class="fas fa-bell mt-2 ml-2 px-4"style="font-size:28px;color:#C4C4C4
+                          ;"></i>
+                          
+                   </form>
             </div>
         </div>
 
@@ -86,7 +85,7 @@
             
                         
                             <form class="d-flex my-2 px-3 ">
-                                <i class="fa fa-caret-down mx-4" style="font-size:48px;color:#00C1FE ;"></i>
+                                <i class="fas fa-sort mx-4 " style="font-size:48px;color:#00C1FE ;" ></i>
                                 <button class="form-control me-2 bg-info text-light px-3 ">ADD NEW STUDENT </button>
                               
 
@@ -94,7 +93,8 @@
                              
                 </div>
             </div>
-        <table class="table bg-white table-borderless ">
+       <div class=" table-responsive-sm table-responsive-md">
+         <table class="table bg-white table-borderless ">
             <thead>
               <tr class="bg_table text-table">
                 <th scope="col"></th>
@@ -103,8 +103,9 @@
                 <th scope="col">Phone</th>
                 <th scope="col">Enroll Number</th>
                 <th scope="col">Date of admission</th>
-                <th scope="col"></th>
-                <th scope="col"></th>
+                <th scope="col "></th>
+                <th scope="col "></th>
+                
 
                
               </tr>
@@ -117,8 +118,8 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
-                <td scope="row " ><i class="bi bi-trash" style="font-size:48px;color:#00C1FE"></i></td>
-                <td ><i class="bi bi-trash" style="font-size:48px;color:#00C1FE"></i></td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
               <tr>
                 <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
@@ -127,6 +128,8 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
               <tr>
                 <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
@@ -135,6 +138,8 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
               <tr>
                 <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
@@ -143,6 +148,8 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
               <tr>
                 <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
@@ -151,6 +158,8 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
               <tr>
                 <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
@@ -159,48 +168,69 @@
                 <td>12333445</td>
                 <td>123456789</td>
                 <td>08-DEC,2021</td>
+                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
               </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-              </tr>
+              <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
+              <td>Uername</td>
+              <td>user@gmail.com</td>
+              <td>12333445</td>
+              <td>123456789</td>
+              <td>08-DEC,2021</td>
+              <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+              <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
+            </tr>
+            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
+            <td>Uername</td>
+            <td>user@gmail.com</td>
+            <td>12333445</td>
+            <td>123456789</td>
+            <td>08-DEC,2021</td>
+            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
+          </tr>
+          <tr>
+            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
+            <td>Uername</td>
+            <td>user@gmail.com</td>
+            <td>12333445</td>
+            <td>123456789</td>
+            <td>08-DEC,2021</td>
+            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
+          </tr>
+          <tr>
+            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
+            <td>Uername</td>
+            <td>user@gmail.com</td>
+            <td>12333445</td>
+            <td>123456789</td>
+            <td>08-DEC,2021</td>
+            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
+            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
+          </tr>
+       
+       
              
 
             </tbody>
           </table>
+        </div>     
+       
     </main>
     <footer>
 
     </footer>
-   <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+   
+    <script>
+      var el = document.getElementById("sidebar");
+      var toggleButton = document.getElementById("menu-bnt");
+
+      toggleButton.onclick = function () {
+          el.classList.toggle("toggled");
+      };
+  </script>
 
 </body>
 </html>
