@@ -1,101 +1,71 @@
-:root {
-    
-    --background:  #FAFFC1;
-    --hover-color: #00C1FE;
-    --bg-students: #F0F9FF;
-    --bg-course: #FEF6FB;
-    --bg-pay: #FEFBEC;
-    --bg-user:linear-gradient(to right, #00C1FE, #FAFFC1  );
-    
-  }
 
-  body{
-      min-width: 100vh;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background: #eee8e873;
-      background-size: cover;
-      background-repeat: no-repeat;
-      overflow-x: hidden;
-      
-      
-      
-  }
-  .text-table{
-      color: #ACACAC;
-      font-weight:lighter;
-  }
- 
-
- .nav-link{
-     font-size: 1.25em;
-  
- }
- .nav-link:active,.nav-link:focus,.nav-link:hover{
-     background-color: var(--hover-color);
- }
- .students{
-     background-color:var(--bg-students);
- }
- .course{
-    background-color:var(--bg-course);
+.bg {
+  background:  #FAFFC1;
+  height: 100vh;
 }
-.pay{
-    background-color:var(--bg-pay);
-}
-.use{
-    background:var(--bg-user);
+#sidebar-dashboard {
+ min-height: 100%;
+ margin-left: -240px;
 }
 
-  .content {
-    
-    transition: 1s;
-  }
-
-  #side-bar{
-      position: absolute;
-      width: 320px;
-      height: 100%;
-      background: var(--background);
-      left:-330px;
-
-  }
-
-  .toggle-btn{
-    position: absolute;
-    top: 11px;
-    left: 344px;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-  
-  }
-  .toggle-btn span{
-      width: 60px;
-      height: 10px;
-     
-      display: block;
-    margin-top:4px; 
-    transition: 0.3s ease;
-  }
-  
+.list-group a:hover{
+    background: #00C1FE !important;
+}  
+#sidebar-dashboard .list-group {
+   width: 240px;
+ }
+#page-content-dashboard {
+   min-width: 100%;
+ }
+ #dashboard.toggled #sidebar-dashboard {
+   margin-left: 0;
+ }
+ #menu-toggle {
+   cursor: pointer;
+ }
+/*page dashboard*/
  
-  
- 
-  
-  #side-bar.active{
-      left:0;
-  }
- 
+.card_student{
+ background: #F0F9FF ;
+}
+.card_student i{
+ color: #74C1ED ;
+}
+.card_cours{
+background: #FEF6FB;
+}
+.card_cours i{
+ color:  #EE95C5;
+}
+.card_payment{
+ background: #FEFBEC;
+}
+.card_payment i{
+ color: #00C1FE;
+}
+.card_user{
+ background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%);
+}
+.card_user i {
+ color: white;
+}
 
-  #side-bar.active span {
-    transform: rotate(180deg);
-    top: 3px;
-  }
+/* page student */
+td i{
+ color: #00C1FE ;
+}
 
+ @media (min-width: 768px) {
+   #sidebar-dashboard {
+     margin-left: 0;
+   }
  
-  
-  
-  
-  
+   #page-content-dashboard {
+     min-width: 0;
+     width: 100%;
+   }
+ 
+   #dashboard.toggled #sidebar-dashboard {
+     margin-left: -240px;
+   }
+ }

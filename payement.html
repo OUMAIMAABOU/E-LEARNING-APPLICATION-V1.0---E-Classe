@@ -14,46 +14,42 @@
 
 </head>
 <body class="row">
-     <header class="col-2 p-0">
-
-    <nav class="navbar navbar-expand d-flex flex-column align-item-start justify-content-between " id="sidebar">
-      
-        <div class=" dark-text fs-1 fw-bold border-start border-5 border-info " style="margin-left: -74px;">
+  <div class="d-flex" id="dashboard">
+ 
+    <div class="bg" id="sidebar-dashboard">
+        <div class="m-2 dark-text fs-5 fw-bold border-start border-5 border-info px-2">
             E-classe
         </div>
+        <div class="list-group ">
+            <img src="img/profile.jpg" alt="profile picture"
+                class=" profile img-fluid rounded-circle mx-auto d-block my-2 p-1 ">
+            <div class="text-center ">
+                <h6> Admin name </h6>
+                <span class=" fs-6 text-info">Admin</span>
+            </div>
 
-        <div class="text-center justify-content-center ">
-            <img src="img/profile.jpg" alt="profile picture" class=" profile img-fluid rounded-circle mx-auto d-block  p-1 d-inline">
-            
-               <h6 > Admin name </h6>
-               <span class=" fs-6 text-info" >Admin</span>              
-         </div>
+            </a>
+            <a href="liste.html" class="list-group-item mx-5 border-0 bg-transparent   mt-3 ">
+                <i class="fas fa-home"></i> Home</a>
+            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
+                <i class="far fa-bookmark"></i> Course </a>
+            <a href="student.html" class="list-group-item mx-5 border-0 bg-transparent  ">
+                <i class="fas fa-graduation-cap"></i> Students</a>
+            <a href="payement.html" class="list-group-item mx-5 border-0  bg-info rounded-3 ">
+                <i class="fas fa-dollar-sign  "></i> Payment </a>
+            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
+                <i class="far fa-file-alt"></i> Report </a>
+            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
+                <i class="fas fa-sliders-h"></i> Settings</a>
+            <a href="index.html" class="list-group-item mx-5 border-0 bg-transparent  mt-5 mb-2 ">
+                Logout <i class="fas fa-sign-out-alt"></i> </a>
+        </div>
+    </div>
 
-      <ul class="navbar-nav d-flex flex-column mt-5 w-10  ">
-          
-       
-        <li class="nav-item w-100 "> <a href="liste.html" class="nav-link text-dark pl-4"> <i class="fas fa-home"></i> Home</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-bookmark"></i> Course</a></li>
-        <li class="nav-item w-100"><a href="student.html" class="nav-link text-dark pl-4"><i class="fas fa-graduation-cap"></i> Students</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-dollar-sign" ></i>  Payment</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-gift me-2"></i> Products</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="far fa-file-alt"></i> Report</a></li>
-        <li class="nav-item w-100"><a href="" class="nav-link text-dark pl-4"><i class="fas fa-sliders-h"></i> Settings</a></li>
-      </ul>
+
+
     
-      <div>
-        <a href="index.html" class="list-group-item bg-transparent  second-text mt-4  "> 
-            Logout  <i class="fas fa-sign-out-alt"></i>  </a>
-      </div>
-
-    </nav>
-     
-
-</header>
-
-
-
-    <main class="col-10   p-0">
+    <div id="page-content-dashboard">
       
       <div class=" px-0 ">
         <div class=" navbar-expand-md bg-white nav-dark text-light">
@@ -155,11 +151,17 @@
 
                 </tbody>
             </table>
-    </main>
-    <footer>
-
-    </footer>
+        </div>
+   
    <script src="js/bootstrap.bundle.min.js" ></script>
+   <script>
+    var el = document.getElementById("dashboard");
+    var toggleButton = document.getElementById("menu-toggle");
+
+    toggleButton.onclick = function () {
+        el.classList.toggle("toggled");
+    };
+</script>
 
 </body>
 </html>
