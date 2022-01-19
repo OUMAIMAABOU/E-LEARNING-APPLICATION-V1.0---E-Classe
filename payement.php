@@ -44,8 +44,8 @@
                               </form>
                 </div>
             </div>
-     
-            <table class="table table-striped  table-borderless table-hover table-responsive-sm table-responsive-md ">
+          <div class=" table-responsive-sm table-responsive-md">
+            <table class="table table-striped  table-borderless table-hover  ">
                 <thead>
                     <tr class="bg_table text-table">
           
@@ -108,6 +108,7 @@
                 </tbody>
             </table>
         </div>
+</div>  
  </div>    
 </div>  
    

@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<div class=" navbar-expand-md bg-white nav-dark text-light">
+<div class=" navbar-expand-md bg-white nav-dark text-light py-3">
             <div class="d-flex justify-content-between">
               <a href="#" class="navbar-brand mx-1 px-2" style="font-size:28px;color:#C4C4C4 ;">
                <i class="fas fa-chevron-circle-left   fs-4 me-3" id="menu-toggle"></i></a>

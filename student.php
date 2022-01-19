@@ -49,7 +49,7 @@
                 </div>
             </div>
        <div class=" table-responsive-sm table-responsive-md">
-         <table class="table bg-white table-borderless ">
+         <table class="table bg-white table-borderless table-hover ">
             <thead>
               <tr class="bg_table text-table">
                 <th scope="col"></th>
