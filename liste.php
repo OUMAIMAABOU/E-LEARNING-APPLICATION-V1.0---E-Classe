@@ -27,7 +27,7 @@
             <div class="container-fluid px-4">
                 <div class="row my-2 d-flex justify-content-center">
                     <div class="col-lg-3 col-md-5 mb-4 ">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_student ">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center  " style="background: #F0F9FF;">
                             <div>
                                 <i class="fas fa-graduation-cap fs-5  p-1"></i>
 
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="col-lg-3  col-md-5  mb-4 ">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_cours ">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center  "style="background: #FEF6FB;">
                             <div>
                                 <i class="far fa-bookmark fs-5 p-1"></i>
 
@@ -48,8 +48,8 @@
                         </div>
                     </div>
 
-                    <div class=" col-lg-3  col-md-5  mb-4">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_payment ">
+                    <div class=" col-lg-3  col-md-5  mb-4" >
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center  " style="background: #FEFBEC;">
                             <div>
                                 <i class="fas fa-dollar-sign fs-5  p-1"></i>
 
@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-5  mb-4">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_user ">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center " style="background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%)">
                             <div>
                                 <i class="far fa-user fs-5  p-1"></i>
 

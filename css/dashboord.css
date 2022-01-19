@@ -9,7 +9,7 @@
 }
 
 .list-group a:hover{
-    background: #00C1FE !important;
+    background: #00C1FE ;
 }  
 #sidebar-dashboard .list-group {
    width: 240px;
@@ -26,10 +26,7 @@
  
 
 
-/* page student */
-td i{
- color: #00C1FE ;
-}
+
 
  @media (min-width: 768px) {
    #sidebar-dashboard {
