@@ -15,66 +15,24 @@
 </head>
 <body class="row">
   <div class="d-flex" id="dashboard">
-    
+
     <div class="bg" id="sidebar-dashboard">
-        <div class="m-2 dark-text fs-5 fw-bold border-start border-5 border-info px-2">
-            E-classe
-        </div>
-        <div class="list-group ">
-            <img src="img/profile.jpg" alt="profile picture"
-                class=" profile img-fluid rounded-circle mx-auto d-block my-2 p-1 ">
-            <div class="text-center ">
-                <h6> Admin name </h6>
-                <span class=" fs-6 text-info">Admin</span>
-            </div>
-
-            </a>
-            <a href="liste.html" class="list-group-item mx-5 border-0  bg-transparent mt-3 ">
-                <i class="fas fa-home"></i> Home</a>
-            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
-                <i class="far fa-bookmark"></i> Course </a>
-            <a href="student.html" class="list-group-item mx-5 border-0 bg-info rounded-3  ">
-                <i class="fas fa-graduation-cap"></i> Students</a>
-            <a href="payement.html" class="list-group-item mx-5 border-0 bg-transparent ">
-                <i class="fas fa-dollar-sign "></i> Payment </a>
-            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
-                <i class="far fa-file-alt"></i> Report </a>
-            <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
-                <i class="fas fa-sliders-h"></i> Settings</a>
-            <a href="index.html" class="list-group-item mx-5 border-0 bg-transparent  mt-5 mb-2 ">
-                Logout <i class="fas fa-sign-out-alt"></i> </a>
-        </div>
-    </div>
+      <?php include 'sidebare.php'?>
+   
+      </div>
 
 
 
     
-    <div id="page-content-dashboard">
+     <div id="page-content-dashboard">
 
     
       <div class=" py-0  ">
-        <div class=" navbar-expand-md bg-white nav-dark text-light">
-            <div class="d-flex justify-content-between">
-              <a href="#" class="navbar-brand mx-1 px-2" style="font-size:28px;color:#C4C4C4
-              ;"><i class="fas fa-chevron-circle-left   fs-4 me-3" id="menu-toggle"></i></a>
-                  <button
-                          class="navbar-toggler" 
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#main">
-                        <span class="navbar-toggler-icon"></span>  
-                  </button> 
-                  
-                   <form class="d-flex ">
-                          <input class="form-control me-2 " type="search" placeholder="Search..." aria-label="Search">
-                          <i class="fas fa-bell mt-2 ml-2 px-4"style="font-size:28px;color:#C4C4C4
-                          ;"></i>
-                          
-                   </form>
-            </div>
-        </div>
-
-        <div class=" py-4 ">
+      <?php include 'navbar.php'?>
+                
+      </div>
+        
+      <div class=" py-4 ">
             <div class=" navbar-expand-md ">
                 <div class="d-flex justify-content-between border-bottom ">
                    
@@ -212,8 +170,9 @@
 
             </tbody>
           </table>
-        </div>     
-       
+        </div> 
+      </div>      
+     </div>   
     
     <script src="js/bootstrap.bundle.min.js" ></script>
    

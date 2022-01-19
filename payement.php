@@ -13,7 +13,8 @@
 
 
 </head>
-<body class="row">
+
+    <body class="row">
   <div class="d-flex" id="dashboard">
  
     <div class="bg" id="sidebar-dashboard">
@@ -162,6 +163,5 @@
         el.classList.toggle("toggled");
     };
 </script>
-
 </body>
 </html>
