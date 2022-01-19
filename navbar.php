@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
 <div class=" navbar-expand-md bg-white nav-dark text-light py-3">
             <div class="d-flex justify-content-between">
               <a href="#" class="navbar-brand mx-1 px-2" style="font-size:28px;color:#C4C4C4 ;">
@@ -28,5 +20,3 @@
             </div>
         </div>
 
-</body>
-</html>
