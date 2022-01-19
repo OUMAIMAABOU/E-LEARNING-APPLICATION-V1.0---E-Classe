@@ -19,19 +19,19 @@
             </div>
 
             
-            <a href="liste.html" class="list-group-item mx-5 border-0  bg-transparent mt-3 ">
+            <a href="liste.php" class="list-group-item mx-5 border-0  bg-transparent mt-3 ">
                 <i class="fas fa-home"></i> Home</a>
             <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
                 <i class="far fa-bookmark"></i> Course </a>
-            <a href="student.html" class="list-group-item mx-5 border-0 bg-info rounded-3  ">
+            <a href="student.php" class="list-group-item mx-5 border-0 bg-transparent rounded-3  ">
                 <i class="fas fa-graduation-cap"></i> Students</a>
-            <a href="payement.html" class="list-group-item mx-5 border-0 bg-transparent ">
+            <a href="payement.php" class="list-group-item mx-5 border-0 bg-transparent ">
                 <i class="fas fa-dollar-sign "></i> Payment </a>
             <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
                 <i class="far fa-file-alt"></i> Report </a>
             <a href="#" class="list-group-item mx-5 border-0 bg-transparent ">
                 <i class="fas fa-sliders-h"></i> Settings</a>
-            <a href="index.html" class="list-group-item mx-5 border-0 bg-transparent  mt-5 mb-2 ">
+            <a href="index.php" class="list-group-item mx-5 border-0 bg-transparent  mt-5 mb-2 ">
                 Logout <i class="fas fa-sign-out-alt"></i> </a>
         </div>
    
