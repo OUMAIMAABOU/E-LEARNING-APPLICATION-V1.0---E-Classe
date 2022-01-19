@@ -10,70 +10,74 @@
     <title>Dashboard</title>
 </head>
 
+
 <body>
+    <div class="d-flex" id="dashboard">
+  
+        <div class="bg" id="sidebar-dashboard">
+        <?php include 'sidebare.php'?>
+        </div>
+      
 
-<div id="page-content-dashboard">
-                  
-    <?php include 'sidebare.php'?>
-                    
-    
-   <div class=" px-0 ">
-         <?php include 'navbar.php'?>
+       
+        <div id="page-content-dashboard">
+            <div py-2>  
+             <?php include 'navbar.php'?>
+            </div>
+            <div class="container-fluid px-4">
+                <div class="row my-2 d-flex justify-content-center">
+                    <div class="col-lg-3 col-md-5 mb-4 ">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_student ">
+                            <div>
+                                <i class="fas fa-graduation-cap fs-5  p-1"></i>
 
-        <div class="container-fluid px-4">
-                    <div class="row my-2 d-flex justify-content-center">
-                        <div class="col-lg-3 col-md-5 mb-4 ">
-                            <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_student ">
-                                <div>
-                                    <i class="fas fa-graduation-cap fs-5  p-1"></i>
-
-                                    <p class="fs-5 mb-5 Secondary-text">Students</p>
-                                </div>
-                                <h3 class="fs-5 mt-5">243</h3>
+                                <p class="fs-5 mb-5 Secondary-text">Students</p>
                             </div>
-                        </div>
-
-                        <div class="col-lg-3  col-md-5  mb-4 ">
-                            <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_cours ">
-                                <div>
-                                    <i class="far fa-bookmark fs-5 p-1"></i>
-
-                                    <p class="fs-5 mb-5 Secondary-text">Course</p>
-                                </div>
-                                <h3 class="fs-5 mt-5">13</h3>
-                            </div>
-                        </div>
-
-                        <div class=" col-lg-3  col-md-5  mb-4">
-                            <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_payment ">
-                                <div>
-                                    <i class="fas fa-dollar-sign fs-5  p-1"></i>
-
-                                    <p class="fs-5 mb-5 Secondary-text">Payments</p>
-                                </div>
-                                <h3 class="fs-5 mt-5">DH556,000</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-5  mb-4">
-                            <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_user ">
-                                <div>
-                                    <i class="far fa-user fs-5  p-1"></i>
-
-                                    <p class="fs-5 mb-5 text-white">Users</p>
-                                </div>
-                                <h3 class="fs-5 mt-5">3</h3>
-                            </div>
+                            <h3 class="fs-5 mt-5">243</h3>
                         </div>
                     </div>
 
+                    <div class="col-lg-3  col-md-5  mb-4 ">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_cours ">
+                            <div>
+                                <i class="far fa-bookmark fs-5 p-1"></i>
 
+                                <p class="fs-5 mb-5 Secondary-text">Course</p>
+                            </div>
+                            <h3 class="fs-5 mt-5">13</h3>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3  col-md-5  mb-4">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_payment ">
+                            <div>
+                                <i class="fas fa-dollar-sign fs-5  p-1"></i>
+
+                                <p class="fs-5 mb-5 Secondary-text">Payments</p>
+                            </div>
+                            <h3 class="fs-5 mt-5">DH556,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-5  mb-4">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center card_user ">
+                            <div>
+                                <i class="far fa-user fs-5  p-1"></i>
+
+                                <p class="fs-5 mb-5 text-white">Users</p>
+                            </div>
+                            <h3 class="fs-5 mt-5">3</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+      
         </div>
-    </div> 
-</div>    
-            
+     
+    </div>
 
-</div>      
  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
