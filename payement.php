@@ -61,47 +61,8 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                     
-                      <td>karthi</td>
-                      <td>First</td>
-                      <td>001234</td>
-                      <td>DHS 100,00</td>
-                      <td>DHS 500,00</td>
-                      <td>05-JAN,2022</td>
-                      <td scope="row " ><i class="far fa-eye" style="font-size:28px;color:#00C1FE"></i></td>
-                     
-                    </tr>
-                    <tr>
-                     
-                        <td>karthi</td>
-                        <td>First</td>
-                        <td>001234</td>
-                        <td>DHS 100,00</td>
-                        <td>DHS 500,00</td>
-                        <td>05-JAN,2022</td>
-                        <td scope="row " ><i class="far fa-eye" style="font-size:28px;color:#00C1FE"></i></td>
-                      </tr>
-                      <tr>
-                     
-                        <td>karthi</td>
-                        <td>First</td>
-                        <td>001234</td>
-                        <td>DHS 100,00</td>
-                        <td>DHS 500,00</td>
-                        <td>05-JAN,2022</td>
-                        <td scope="row " ><i class="far fa-eye" style="font-size:28px;color:#00C1FE"></i></td>
-                      </tr>
-                      <tr>
-                     
-                        <td>karthi</td>
-                        <td>First</td>
-                        <td>001234</td>
-                        <td>DHS 100,00</td>
-                        <td>DHS 500,00</td>
-                        <td>05-JAN,2022</td>
-                        <td scope="row " ><i class="far fa-eye" style="font-size:28px;color:#00C1FE"></i></td>
-                      </tr>
+                
+                  <?php include 'tabpay.php' ?>
                   
 
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,143 +35,38 @@
         
       <div class=" py-4 ">
             <div class=" navbar-expand-md ">
-                <div class="d-flex justify-content-between border-bottom ">
-                   
-                    <a href="#" class="navbar-brand  fs-4 fw-bold text-dark px-2 ">Student List</a>
-            
-                        
-                            <form class="d-flex my-2 px-3 ">
-                                <i class="fas fa-sort mx-4 " style="font-size:48px;color:#00C1FE ;" ></i>
-                                <button class="form-control me-2 bg-info text-light px-3 ">ADD NEW STUDENT </button>
-                              
-
-                              </form>
-                             
-                </div>
+              <div class="d-flex justify-content-between border-bottom ">
+                  
+              <a href="#" class="navbar-brand  fs-4 fw-bold text-dark px-2 ">Student List</a>
+              <form class="d-flex my-2 px-3 ">
+                <i class="fas fa-sort mx-4 " style="font-size:48px;color:#00C1FE ;" ></i>
+                <button class="form-control me-2 bg-info text-light px-3 ">ADD NEW STUDENT </button>
+              </form>
+                            
+              </div>
             </div>
-       <div class=" table-responsive-sm table-responsive-md">
-         <table class="table bg-white table-borderless table-hover ">
-            <thead>
-              <tr class="bg_table text-table">
-                <th scope="col"></th>
-                <th scope="col">Name</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone</th>
-                <th scope="col">Enroll Number</th>
-                <th scope="col">Date of admission</th>
-                <th scope="col "></th>
-                <th scope="col "></th>
-                
+            <div class=" table-responsive-sm table-responsive-md">
+              <table class="table bg-white table-borderless table-hover ">
+                <thead>
+                  <tr class="bg_table text-table">
+                    <th scope="col"></th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Enroll Number</th>
+                    <th scope="col">Date of admission</th>
+                    <th scope="col "></th>
+                    <th scope="col "></th>
+      
+                  </tr>
+                </thead>
+                <tbody>
 
-               
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <tr>
-                <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-                <td>Uername</td>
-                <td>user@gmail.com</td>
-                <td>12333445</td>
-                <td>123456789</td>
-                <td>08-DEC,2021</td>
-                <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-                <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-              </tr>
-              <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-              <td>Uername</td>
-              <td>user@gmail.com</td>
-              <td>12333445</td>
-              <td>123456789</td>
-              <td>08-DEC,2021</td>
-              <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-              <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-            </tr>
-            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-            <td>Uername</td>
-            <td>user@gmail.com</td>
-            <td>12333445</td>
-            <td>123456789</td>
-            <td>08-DEC,2021</td>
-            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-          </tr>
-          <tr>
-            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-            <td>Uername</td>
-            <td>user@gmail.com</td>
-            <td>12333445</td>
-            <td>123456789</td>
-            <td>08-DEC,2021</td>
-            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-          </tr>
-          <tr>
-            <th scope="row "><img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 10vh;"></th>
-            <td>Uername</td>
-            <td>user@gmail.com</td>
-            <td>12333445</td>
-            <td>123456789</td>
-            <td>08-DEC,2021</td>
-            <td  ><i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></td>
-            <td  ><i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></i></td>
-          </tr>
-       
-       
-             
-
-            </tbody>
-          </table>
-        </div> 
+                <?php include 'tabstud.php' ?>
+   
+   </tbody>
+              </table>
+            </div> 
       </div>      
      </div>   
     
