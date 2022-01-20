@@ -129,7 +129,7 @@
 
 
     
-      foreach($PAYEMENT as $key=>$PAYEMENT){
+      foreach($PAYEMENT as $i=>$PAYEMENT){
        echo"<tr>   
      
        <td>".$PAYEMENT['Name']."</td>
