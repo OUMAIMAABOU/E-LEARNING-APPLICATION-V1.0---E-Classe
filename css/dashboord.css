@@ -1,4 +1,14 @@
-
+body{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: #e5e5e57e;
+background-size: cover;
+background-repeat: no-repeat;
+overflow-x: hidden;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif!important;
+}
 .bg {
   background:  #FAFFC1;
   height: 100vh;
@@ -7,6 +17,7 @@
 #sidebar-dashboard {
  min-height: 100%;
  margin-left: -240px;
+
 }
 
 .list-group a:hover{
@@ -33,6 +44,7 @@
    #sidebar-dashboard {
      margin-left: 0;
    }
+   
  
    #page-content-dashboard {
      min-width: 0;

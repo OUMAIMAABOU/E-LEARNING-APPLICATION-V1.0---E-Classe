@@ -1,13 +1,13 @@
 
-<div class="m-2 dark-text fs-5 fw-bold border-start border-5 border-info px-2">
-            E-classe
+<div class="m-2 dark-text fs-4 fw-bold border-start border-5 border-info px-2">
+          <h1> E-classe </h1>
         </div>
         <div class="list-group ">
             <img src="img/profile.jpg" alt="profile picture"
                 class=" profile img-fluid rounded-circle mx-auto d-block my-2 p-1 ">
             <div class="text-center ">
-                <h6> Admin name </h6>
-                <span class=" fs-6 text-info">Admin</span>
+                <h2> Admin name </h2>
+                <span class=" text-info fs-4">Admin</span>
             </div>
 
             

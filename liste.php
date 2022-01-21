@@ -12,7 +12,8 @@
 
 
 <body>
-    <div class="d-flex" id="dashboard">
+   <main>
+    <div class="d-flex bg-white" id="dashboard">
   
         <div class="bg" id="sidebar-dashboard">
         <?php include 'sidebare.php'?>
@@ -38,7 +39,7 @@
                     </div>
 
                     <div class="col-lg-3  col-md-5  mb-4 ">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center  "style="background: #FEF6FB;">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center" style="background: #FEF6FB;">
                             <div>
                                 <i class="far fa-bookmark fs-5 p-1"></i>
 
@@ -49,7 +50,7 @@
                     </div>
 
                     <div class=" col-lg-3  col-md-5  mb-4" >
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center  " style="background: #FEFBEC;">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center" style="background: #FEFBEC;">
                             <div>
                                 <i class="fas fa-dollar-sign fs-5  p-1"></i>
 
@@ -60,11 +61,11 @@
                     </div>
 
                     <div class="col-lg-3 col-md-5  mb-4">
-                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center " style="background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%)">
+                        <div class="p-3  shadow-sm d-flex justify-content-around align-items-center" style="background: linear-gradient(110.42deg, #00C1FE 18.27%, #FAFFC1 91.84%)">
                             <div>
                                 <i class="far fa-user fs-5  p-1"></i>
 
-                                <p class="fs-5 mb-5 text-white">Users</p>
+                                <p class="fs-5 mb-5 ">Users</p>
                             </div>
                             <h3 class="fs-5 mt-5">3</h3>
                         </div>
@@ -89,6 +90,7 @@
             el.classList.toggle("toggled");
         };
     </script>
+  </main>   
 </body>
 
 </html>
