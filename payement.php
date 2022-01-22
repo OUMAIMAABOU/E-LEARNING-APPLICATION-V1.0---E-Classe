@@ -44,7 +44,7 @@
                     </div>
                 </div>
               <div class=" table-responsive-sm table-responsive-md">
-                <table class="table table-striped  table-borderless table-hover bg.white  ">
+                <table class="table table-striped  table-borderless table-hover bg-white ">
                     <thead>
                         <tr class="bg_table text-table">
               
@@ -85,7 +85,7 @@
 
 
               
-                foreach($PAYEMENT as $i=>$PAYEMENT){
+                foreach($PAYEMENT as $PAYEMENT){
                 echo"<tr>   
               
                 <td>".$PAYEMENT['Name']."</td>

@@ -21,8 +21,8 @@ font-family: 'Montserrat', sans-serif!important;
 }
 
 .list-group a:hover{
-  background: #00C1FE!important ;
-}
+    background: #00C1FE!important ;
+}  
 #sidebar-dashboard .list-group {
    width: 240px;
  }

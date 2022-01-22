@@ -18,7 +18,7 @@
   <main>
   <div class="d-flex font-weight-400" id="dashboard">
 
-    <div class="bg col-2" id="sidebar-dashboard">
+    <div class="bg" id="sidebar-dashboard">
       <?php include 'sidebare.php'?>
    
       </div>
@@ -26,7 +26,7 @@
 
 
     
-     <div id="page-content-dashboard " class="col-10">
+     <div id="page-content-dashboard">
 
     
       <div class=" py-0  ">
@@ -66,16 +66,18 @@
                 <?php  
     
 
-                  for($i=0;$i<20;$i++){
-                    $student []=[  
-                      'img'=>'<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Name'  =>'Uername','Email' =>'user@gmail.com',
-                      'Phone' =>'12333445'.$i++,'Enroll Number' =>'123456789'.$i,'Date of admission' =>'08-DEC,2021','icon1' =>'<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
-                      'icon2' =>'<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">',
-                    ];
+                  for($i=0;$i<9;$i++){
+                    $student[]= 
+                      [  
+                        'img'=>'<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Name'  =>'Uername','Email' =>'user@gmail.com',
+                        'Phone' =>'12333445','Enroll Number' =>'123456789','Date of admission' =>'08-DEC,2021','icon1' =>'<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
+                        'icon2' =>'<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">',
+                      
+                      ];
 
                   }
   
-                foreach($student as $i=>$student)
+                foreach($student as $student)
                 {
                   echo"<tr>   
                     <td>".$student['img']."</td>
@@ -89,6 +91,7 @@
                   
                   </tr>";
                 }
+              
 
               ?>  
                 </tbody>
