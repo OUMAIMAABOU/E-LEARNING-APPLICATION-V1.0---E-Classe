@@ -21,8 +21,8 @@ font-family: 'Montserrat', sans-serif!important;
 }
 
 .list-group a:hover{
-  background: #00C1FE!important ;
-}
+    background: #00C1FE!important ;
+}  
 #sidebar-dashboard .list-group {
    width: 240px;
  }
@@ -37,14 +37,18 @@ font-family: 'Montserrat', sans-serif!important;
  }
  
 
-
+ .py-2 form button span{
+  font-size: 50%;
+}
 
 
  @media (min-width: 768px) {
    #sidebar-dashboard {
      margin-left: 0;
    }
-   
+   .py-2 form button span{
+    font-size: 100%;
+  }
  
    #page-content-dashboard {
      min-width: 0;

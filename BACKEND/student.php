@@ -46,10 +46,10 @@
                             
               </div>
             </div>
-            <div class=" table-responsive-sm table-responsive-md">
-              <table class="table bg-white table-borderless table-hover ">
+            <div class=" table-responsive-sm table-responsive-md py-3">
+              <table class="table bg-white table-borderless table-hover  mx-3 ">
                 <thead>
-                  <tr class="bg_table text-table ">
+                  <tr class="bg_table text-table">
                     <th></th>
                     <th >Name</th>
                     <th >Email</th>

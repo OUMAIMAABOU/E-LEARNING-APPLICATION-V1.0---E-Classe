@@ -36,7 +36,9 @@ font-family: 'Montserrat', sans-serif!important;
    cursor: pointer;
  }
  
-
+ .py-2 form button span{
+  font-size: 25%;
+}
 
 
 
@@ -44,6 +46,9 @@ font-family: 'Montserrat', sans-serif!important;
    #sidebar-dashboard {
      margin-left: 0;
    }
+   .py-2 form button span{
+    font-size: 100%;
+  }
    
  
    #page-content-dashboard {
