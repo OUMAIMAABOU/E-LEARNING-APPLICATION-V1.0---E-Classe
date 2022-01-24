@@ -49,7 +49,7 @@
             <div class=" table-responsive-sm table-responsive-md py-3">
               <table class="table bg-white table-borderless table-hover  mx-3 ">
                 <thead>
-                  <tr class="bg_table text-table">
+                  <tr class="bg_table text-table" style="background: #e5e5e57e;color: #ACACAC;">
                     <th></th>
                     <th >Name</th>
                     <th >Email</th>
@@ -62,33 +62,33 @@
                   </tr>
                 </thead>
                 <tbody class="font-weight-400">
-
                 <?php  
     
 
-                  for($i=0;$i<9;$i++){
-                    $student[]= 
-                      [  
-                     '<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Uername', 'user@gmail.com',
-                     '12333445','123456789','08-DEC,2021','<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
-                     '<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">'
-                      
-                      ];
+                    for($i=0;$i<9;$i++){
+                      $student[]= 
+                        [  
+                      '<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Uername', 'user@gmail.com',
+                      '12333445','123456789','08-DEC,2021','<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
+                      '<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">'
+                        
+                        ];
 
+                    }
+
+                    for ($row = 0; $row <9; $row++) {
+                      echo"<tr style='border-top: solid 20px #e5e5e57e'>";
+                  for ($COL = 0; $COL <8; $COL++) {
+                    
+                      echo "<td>".$student[$row][$COL]."</td>";
+                    }
+                    "</tr>";
                   }
-                  for ($row = 0; $row <9; $row++) {
-                    echo"<tr>";
-                 for ($COL = 0; $COL <8; $COL++) {
-                   
-                     echo "<td>".$student[$row][$COL]."</td>";
-                   }
-                  "</tr>";
-                 }
-                 
-           
-              
+                  
 
-              ?>  
+
+
+                ?>   
                 </tbody>
               </table>
             </div> 
