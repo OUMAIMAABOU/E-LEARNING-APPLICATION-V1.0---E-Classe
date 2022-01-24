@@ -54,8 +54,8 @@
                     <th >Name</th>
                     <th >Email</th>
                     <th >Phone</th>
-                    <th >Enroll Number</th>
-                    <th >Date of admission</th>
+                    <th class="text-nowrap">Enroll Number</th>
+                    <th class="text-nowrap">Date of admission</th>
                     <th></th>
                     <th></th>
       

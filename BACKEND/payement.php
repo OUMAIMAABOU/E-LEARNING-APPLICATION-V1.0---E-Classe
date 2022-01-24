@@ -49,10 +49,10 @@
                         <tr class="bg_table text-table">
               
                           <th>Name</th>
-                          <th>Payment schedule</th>
-                          <th>Bill Number</th>
-                          <th> Amount paid</th>
-                          <th>Balance amount</th>
+                          <th class="text-nowrap">Payment schedule</th>
+                          <th class="text-nowrap">Bill Number</th>
+                          <th class="text-nowrap"> Amount paid</th>
+                          <th class="text-nowrap">Balance amount</th>
                           <th>date</th>
                           <th></th>
           
@@ -94,7 +94,7 @@
                 <td>".$PAYEMENT['Bill Number']."</td>
                 <td>".$PAYEMENT['Amount paid']."</td>
                 <td>". $PAYEMENT['Balance amount']."</td>
-                <td>".$PAYEMENT['date']."</td>
+                <td class='text-nowrap'>".$PAYEMENT['date']."</td>
                 <td>". $PAYEMENT['icon1']."</td>
               
                 </tr>";
