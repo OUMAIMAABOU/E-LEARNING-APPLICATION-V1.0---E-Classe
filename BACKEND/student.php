@@ -69,28 +69,23 @@
                   for($i=0;$i<9;$i++){
                     $student[]= 
                       [  
-                        'img'=>'<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Name'  =>'Uername','Email' =>'user@gmail.com',
-                        'Phone' =>'12333445','Enroll Number' =>'123456789','Date of admission' =>'08-DEC,2021','icon1' =>'<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
-                        'icon2' =>'<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">',
+                     '<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Uername', 'user@gmail.com',
+                     '12333445','123456789','08-DEC,2021','<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
+                     '<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">'
                       
                       ];
 
                   }
-  
-                foreach($student as $student)
-                {
-                  echo"<tr>   
-                    <td>".$student['img']."</td>
-                    <td>".$student['Name'] ."</td>
-                    <td>". $student['Email']."</td>
-                    <td>".$student['Phone']."</td>
-                    <td>".$student['Enroll Number']."</td>
-                    <td>". $student['Date of admission']."</td>
-                    <td>".$student['icon1']."</td>
-                    <td>". $student['icon2']."</td>
-                  
-                  </tr>";
-                }
+                  for ($row = 0; $row <9; $row++) {
+                    echo"<tr>";
+                 for ($COL = 0; $COL <8; $COL++) {
+                   
+                     echo "<td>".$student[$row][$COL]."</td>";
+                   }
+                  "</tr>";
+                 }
+                 
+           
               
 
               ?>  
