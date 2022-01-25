@@ -4,7 +4,7 @@
         </div>
         <div class="list-group ">
             <img src="img/profile.jpg" alt="profile picture"
-                class=" profile img-fluid rounded-circle mx-auto d-block my-2 p-1 ">
+                class=" profile img-fluid rounded-circle mx-auto d-block my-2 p-1" style="width:80% ; ">
             <div class="text-center ">
                 <h2> Admin name </h2>
                 <span class=" text-info fs-4">Admin</span>
