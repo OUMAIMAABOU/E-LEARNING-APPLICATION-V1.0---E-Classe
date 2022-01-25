@@ -13,7 +13,7 @@
 
 <body>
    <main>
-    <div class="d-flex " id="dashboard">
+    <div class="d-flex" id="dashboard">
   
         <div class="bg" id="sidebar-dashboard">
         <?php include 'sidebare.php'?>
@@ -21,8 +21,8 @@
       
 
        
-        <div id="page-content-dashboard bg-white">
-            <div class=" py-2">  
+        <div class="bg-white" id="page-content-dashboard">
+            <div class="py-2">  
              <?php include 'navbar.php'?>
             </div>
             <div class="container-fluid px-4">

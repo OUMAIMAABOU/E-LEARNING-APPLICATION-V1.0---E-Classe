@@ -30,15 +30,14 @@
           </div>
 
             <div class=" px-2 ">
-                <div class=" navbar-expand-md p-3 ">
                     <div class="d-flex justify-content-between border-bottom">
                       
-                        <a href="#" class="navbar-brand  fs-4 fw-bold text-dark ">Payment Details</a> 
+                      <span class="fs-6 fw-bold text-dark my-2 ">Payment Details</span>
                 
                             
                                 <form class="d-flex my-2 ">
-                                  <i class="fas fa-sort mx-4 " style="font-size:48px;color:#00C1FE ;" ></i>
-                                    <button class="form-control me-2 bg-info text-light ">ADD NEW STUDENT </button>
+                                  <i class="fas fa-sort mx-4 " style="font-size:30px;color:#00C1FE ;" ></i>
+                                    <button class="form-control me-2 bg-info text-light " style="font-size: small;">ADD NEW STUDENT </button>
                                   
                                   </form>
                     </div>

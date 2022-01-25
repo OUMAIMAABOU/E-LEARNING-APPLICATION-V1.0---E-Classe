@@ -35,14 +35,13 @@
       </div>
         
       <div class=" py-2">
-            <div class=" navbar-expand-md ">
-              <div class="d-flex justify-content-between border-bottom ">
-                  
-              <a href="#" class="navbar-brand  fs-4 fw-bold text-dark px-2 ">Student List</a>
-              <form class="d-flex my-2 px-3 ">
-                <i class="fas fa-sort mx-4 " style="font-size:48px;color:#00C1FE ;" ></i>
-                <button class="form-control me-2 bg-info text-light px-3 ">ADD NEW STUDENT </button>
-              </form>
+      <div >
+             <div class="d-flex justify-content-between border-bottom ">   
+              <span class="fs-4 fw-bold text-dark my-2 mx-2">Student List</span>
+                <form class="d-flex my-2 px-3 ">
+                  <i class="fas fa-sort mx-4 " style="font-size:30px;color:#00C1FE ;" ></i>
+                  <button class="form-control me-2 bg-info text-light px-3" style="font-size: small;">ADD NEW STUDENTs</button>
+                </form>
                             
               </div>
             </div>
