@@ -13,7 +13,7 @@
     <main>
         <div  class="container-fluid ">
          <div class="row justify-content-center ">
-             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+             <div class=" col-sm-12 col-md-6 col-lg-3">
                     <form class="from-container">
                         <div class="form-group"> 
                                     

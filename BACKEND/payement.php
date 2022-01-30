@@ -87,7 +87,6 @@
                 foreach($PAYEMENT as $PAYEMENT){
                 echo"<tr>   
               
-                <td>".$PAYEMENT['Name']."</td>
                 <td>".$PAYEMENT['Name'] ."</td>
                 <td>". $PAYEMENT['Payment schedule']."</td>
                 <td>".$PAYEMENT['Bill Number']."</td>

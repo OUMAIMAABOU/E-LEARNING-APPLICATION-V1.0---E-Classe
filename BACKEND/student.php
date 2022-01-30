@@ -40,7 +40,9 @@
               <span class="fs-4 fw-bold text-dark my-2 mx-2">Student List</span>
                 <form class="d-flex my-2 px-3 ">
                   <i class="fas fa-sort mx-4 " style="font-size:30px;color:#00C1FE ;" ></i>
-                  <button class="form-control me-2 bg-info text-light px-3" style="font-size: small;">ADD NEW STUDENTs</button>
+                  <button class="form-control me-2 bg-info text-light px-3" style="font-size: small;" >  <a href="forma.php">ADD NEW STUDENT </a></button>
+                  <div class="modal" tabindex="-1" role="dialog">
+  
                 </form>
                             
               </div>
@@ -64,25 +66,32 @@
                 <?php  
     
 
-                    for($i=0;$i<9;$i++){
-                      $student[]= 
-                        [  
-                      '<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">','Uername', 'user@gmail.com',
-                      '12333445','123456789','08-DEC,2021','<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;">',
-                      '<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;">'
+                      $img= '<img src="img/86bc08c6e40f8d41ee54bd655ffbc696.jpg" alt="p" style="WIDTH: 100px;">';
+                      $icon1= '<i class="fas fa-pen  " style="font-size:28px;color:#00C1FE ;"></i></a>';
+
+                      $icon2= '<i class="fas fa-trash "  style="font-size:28px;color:#00C1FE ;"></a>';
+
+                      $data=file_get_contents('data.json');
+                      $js=json_decode($data,true);
+                      $js=array_reverse($js);  
+
+                      foreach($js as $js){
+                        echo'<tr>
+                   
+                        <td>'.$img.'</td>
+                        <td>'.$js['Name'].'</td>
+                        <td>'.$js['Email'].'</td>
+                        <td>'.$js['phone'].'</td>
+                        <td>'. $js['EnrollNumber'].'</td>
+                        <td>'.$js['Date'].'</td>
+                        <td><a href="delete.php?id='.$js['id'].'">'.$icon1.'</a>
+                        <td><a href="update.php?id='.$js['id'].'">'.$icon2.'</a>
+                       
                         
-                        ];
-
-                    }
-
-                    for ($row = 0; $row <9; $row++) {
-                      echo"<tr style='border-top: solid 20px #e5e5e57e'>";
-                  for ($COL = 0; $COL <8; $COL++) {
-                    
-                      echo "<td>".$student[$row][$COL]."</td>";
-                    }
-                    "</tr>";
-                  }
+                       
+                        
+                    </td> </tr>';
+                      } 
                   
 
 
